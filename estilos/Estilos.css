@@ -1,0 +1,209 @@
+.header{
+    position: sticky;
+    top: 0px;
+    background-color: rgba(248, 71, 17, 0.972);
+    z-index: 2;
+}
+.fondo__index{
+    background-image: url("../Multimedia/mision\ plaza\ 1.jpg");
+    background-color: #cccccc;
+    height: 800px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    
+}
+
+.foto1{
+    display: inline-block;
+    height: 300px;
+    margin-left: 582px;
+    padding-bottom: 0%;
+}
+.foto2{
+    display: inline-block;
+    height: 300px;
+    
+    padding-top: 0%;
+}
+.titulo{
+  text-align: center;
+  position:relative;
+left: 600px;
+top: 20px;}
+.titulo__logo{
+    width: 100px;
+    height: 99px;
+    margin-top: 0%;
+    text-align: center;
+    transition: all 0.2s;
+}
+.titulo__logo :hover{
+    width: 105px;
+    height: 104px;
+}
+
+.listas{
+    list-style: none;
+text-align: center;
+display: inline;
+
+}
+.listas a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+padding:20px;
+transition: all 0.2s;
+}
+.listas li :hover{
+    color: rgb(83, 82, 82);
+    font-size: larger;
+}
+
+.ul{
+    list-style: none;
+}
+.aside__index{text-align: center;}
+.nosotros__index{ text-decoration: none;
+    color: black;
+    font-weight: bold;
+font-size: larger;}
+
+
+.parrafo{
+    font-size: larger;
+}
+.menu__index{
+    border: orangered;
+    background-color: orangered;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    display: inline-block;
+    box-shadow: 0 3px 5px rgb(0 0 0 / 50%);
+    border-radius: 20px;
+    padding: 15px;
+    font-size: larger;
+    margin-bottom: 10px;
+    transition: all 0.2s;
+}
+.menu__index:hover{
+    background-color: tomato;
+    font-weight: lighter;
+}
+
+
+
+
+.logo-instagram{
+    width: 26px;
+    height: 21px;
+    display: inline-block;
+    color: transparent;
+    
+}
+.logo-instagram :hover{
+    color: black;
+}
+.logo-facebook{
+    width: 26px;
+    height: 21px;
+    display: inline-block;
+    color: transparent;
+}
+.logo-facebook:hover{
+    color: black;
+}
+.pie{
+    text-align: center;
+    background-color: rgba(248, 71, 17, 0.972);
+}
+/*contacto*/
+.contacto__div{
+border: solid 2px orangered;
+margin: 30px 80px 30px 80px;
+text-align: center;
+font-size: large;
+}
+.contacto__titulo{font-size: larger;}
+
+/*Menú*/
+.div__entradas{
+    background-image: url("../Multimedia/Entradas.jpg");
+    background-color: #cccccc;
+    height: 300px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.menu__titulos{
+    text-align: center;
+    padding-top: 125px;
+    font-size: 50px;}
+
+.div__platos{
+    background-image: url("../Multimedia/menu\ 1.jpg");
+    background-color: #cccccc;
+    height: 300px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.div__bebidas{background-image: url("../Multimedia/cerveza.jpg");
+    background-color: #cccccc;
+    height: 300px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;}
+.div__postres{background-image: url("../Multimedia/menu\ postre.jpg");
+    background-color: #cccccc;
+    height: 300px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;}
+.menu__texto2{
+    display: inline;
+}
+/*nosotros*/
+.fondo__nosotros{
+    background-image: url("../Multimedia/mision\ plaza\ 2.jpg");
+    background-color: #cccccc;
+    height: 300px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 0%;
+}
+.parrafo__nosotros{
+    text-align: center;
+    font-weight: bold;
+}
+/*reserva*/
+.fondo__reserva{
+    background-image: url("../Multimedia/menu\ 2.jpg");
+    background-color: #cccccc;
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.boton__reserva{
+    border: orangered;
+    background-color: orangered;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    display: inline-block;
+    box-shadow: 0 3px 5px rgb(0 0 0 / 50%);
+    border-radius: 20px;
+    padding: 15px;
+    font-size: 25px;
+    margin-bottom: 10px;
+    text-align: center;
+    margin: 200px 550px;
+    transition: all 0.2s;
+}
+.boton__reserva:hover{
+    background-color: tomato;}
