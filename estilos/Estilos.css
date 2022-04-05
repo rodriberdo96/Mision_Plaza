@@ -3,6 +3,10 @@
     top: 0px;
     background-color: rgba(248, 71, 17, 0.972);
     z-index: 2;
+    grid-area: header;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
 }
 .fondo__index{
     background-image: url("../Multimedia/mision\ plaza\ 1.jpg");
@@ -11,27 +15,17 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    
+    grid-area: foto;
     
 }
 
-.foto1{
-    display: inline-block;
-    height: 300px;
-    margin-left: 582px;
-    padding-bottom: 0%;
-}
-.foto2{
-    display: inline-block;
-    height: 300px;
-    
-    padding-top: 0%;
-}
+
+
 .titulo{
-  text-align: center;
-  position:relative;
-left: 600px;
-top: 20px;}
+    text-align: center;
+    position:relative;
+    left: 140px;
+    top: 20px;}
 .titulo__logo{
     width: 100px;
     height: 99px;
@@ -65,11 +59,14 @@ transition: all 0.2s;
 .ul{
     list-style: none;
 }
-.aside__index{text-align: center;}
+.aside__index{text-align: center;
+grid-area: aside;
+justify-self: center;
+align-self: center;}
 .nosotros__index{ text-decoration: none;
     color: black;
     font-weight: bold;
-font-size: larger;}
+font-size: 40px;}
 
 
 .parrafo{
@@ -87,7 +84,7 @@ font-size: larger;}
     padding: 15px;
     font-size: larger;
     margin-bottom: 10px;
-    transition: all 0.2s;
+    transition: all 0.5s;
 }
 .menu__index:hover{
     background-color: tomato;
@@ -119,6 +116,7 @@ font-size: larger;}
 .pie{
     text-align: center;
     background-color: rgba(248, 71, 17, 0.972);
+    grid-area: pie;
 }
 /*contacto*/
 .contacto__div{
@@ -140,7 +138,7 @@ font-size: large;
 }
 .menu__titulos{
     text-align: center;
-    padding-top: 125px;
+    padding-top: 50px;
     font-size: 50px;}
 
 .div__platos{
@@ -175,10 +173,15 @@ font-size: large;
     background-repeat: no-repeat;
     background-size: cover;
     margin-top: 0%;
+    grid-area: nosotros;
+}
+.section__parrafo{
+    grid-area: parrafo;
 }
 .parrafo__nosotros{
     text-align: center;
     font-weight: bold;
+    ;
 }
 /*reserva*/
 .fondo__reserva{
@@ -207,3 +210,94 @@ font-size: large;
 }
 .boton__reserva:hover{
     background-color: tomato;}
+
+/*grids index*/
+.contenedor{
+    display: grid;
+    grid-template-columns:repeat(4,1fr) ; 
+    grid-template-rows: 0.2fr 2fr 0.8fr 0.1fr ;
+    grid-template-areas: 
+    "header header header header"
+    "foto foto foto foto"
+    ". aside aside ."
+    "pie pie pie pie";
+    
+}
+/*tamaño tablet index*/
+@media screen and(max-width:768px){
+    .contenedor{display: grid;
+        grid-template-columns:repeat(3,1fr) ; 
+        grid-template-rows: 0.2fr 2fr 0.8fr 0.1fr ;
+        grid-template-areas: 
+        "header header header "
+        "foto foto foto "
+        ". aside aside "
+        "pie pie pie";}
+        .titulo{
+            position: relative;
+            left: 260px;
+        
+        }
+}
+
+/* tamaño celular index*/
+@media screen and (max-width:425px){
+    .contenedor{display: grid;
+        grid-template-columns:repeat(1,1fr) ; 
+        grid-template-rows: 0.2fr 2fr 0.8fr 0.1fr ;
+        grid-template-areas: 
+        "header  "
+        "foto "
+        "aside"
+        "pie";}
+        .titulo{
+            position: relative;
+            left: 160px;
+        }
+   
+
+}
+/*grids nosotros*/
+.contenedor__nosotros{
+    display: grid;
+    grid-template-columns:repeat(4,1fr) ; 
+    grid-template-rows: 0.2fr 0.5fr 2fr 0.1fr ;
+    grid-template-areas: 
+    "header header header header"
+    "nosotros nosotros nosotros nosotros"
+    ". parrafo parrafo ."
+    "pie pie pie pie";
+    
+}
+/* tamaño table nosotros*/
+@media screen and(max-width:768px){
+    .contenedor__nosotros{display: grid;
+        grid-template-columns:repeat(3,1fr) ; 
+        grid-template-rows: 0.2fr 0.5fr 0.8fr 0.1fr ;
+        grid-template-areas: 
+        "header header header "
+        "nosotros nosotros nosotros "
+        ". parrafo parrafo "
+        "pie pie pie";}
+        .titulo{
+            position: relative;
+            left: 260px;
+        
+        }
+}
+/* tamaño celular nosotros*/
+@media screen and (max-width:425px){
+    .contenedor__nosotros{display: grid;
+        grid-template-columns:repeat(1,1fr) ; 
+        grid-template-rows: 0.2fr 0.5fr 0.8fr 0.1fr ;
+        grid-template-areas: 
+        "header "
+        "nosotros "
+        "parrafo"
+        "pie";}
+        .titulo{
+            position: relative;
+            left: 160px;
+        }
+   
+    }
