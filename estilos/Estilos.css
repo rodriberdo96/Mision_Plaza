@@ -31,7 +31,7 @@
     height: 99px;
     margin-top: 0%;
     text-align: center;
-    transition: all 0.2s;
+    /*transition: all 0.2s;*/
 }
 .titulo__logo :hover{
     width: 105px;
@@ -48,8 +48,8 @@ display: inline;
     text-decoration: none;
     color: black;
     font-weight: bold;
-padding:20px;
-transition: all 0.2s;
+    padding:20px;
+    transition: all 0.2s;
 }
 .listas li :hover{
     color: rgb(83, 82, 82);
