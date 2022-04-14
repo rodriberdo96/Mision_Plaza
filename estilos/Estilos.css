@@ -71,6 +71,7 @@ font-size: 40px;}
 
 .parrafo{
     font-size: larger;
+    text-align: center;
 }
 .menu__index{
     border: orangered;
@@ -78,13 +79,15 @@ font-size: 40px;}
     text-decoration: none;
     color: black;
     font-weight: bold;
-    display: inline-block;
+    display: flex;
     box-shadow: 0 3px 5px rgb(0 0 0 / 50%);
     border-radius: 20px;
     padding: 15px;
     font-size: larger;
     margin-bottom: 10px;
     transition: all 0.5s;
+    text-align: center;
+    justify-content: center;
 }
 .menu__index:hover{
     background-color: tomato;
@@ -97,8 +100,9 @@ font-size: 40px;}
 .logo-instagram{
     width: 26px;
     height: 21px;
-    display: inline-block;
+    display:flex;
     color: transparent;
+    justify-content: end;
     
 }
 .logo-instagram :hover{
@@ -107,7 +111,8 @@ font-size: 40px;}
 .logo-facebook{
     width: 26px;
     height: 21px;
-    display: inline-block;
+    display: flex;
+    justify-content: start;
     color: transparent;
 }
 .logo-facebook:hover{
@@ -138,8 +143,11 @@ font-size: large;
 }
 .menu__titulos{
     text-align: center;
-    padding-top: 50px;
-    font-size: 50px;}
+    padding-top: 100px;
+    font-size: 50px;
+    font-weight: bolder;
+    color: black;
+}
 
 .div__platos{
     background-image: url("../Multimedia/menu\ 1.jpg");
@@ -177,11 +185,14 @@ font-size: large;
 }
 .section__parrafo{
     grid-area: parrafo;
+    
 }
 .parrafo__nosotros{
     text-align: center;
     font-weight: bold;
-    ;
+    display: flex;
+    justify-content: center;
+    
 }
 /*reserva*/
 .fondo__reserva{
@@ -211,7 +222,7 @@ font-size: large;
 .boton__reserva:hover{
     background-color: tomato;}
 
-/*grids index*/
+/*grids index
 .contenedor{
     display: grid;
     grid-template-columns:repeat(4,1fr) ; 
@@ -222,7 +233,7 @@ font-size: large;
     ". aside aside ."
     "pie pie pie pie";
     
-}
+} */
 /*tamaño tablet index*/
 @media screen and(max-width:768px){
     .contenedor{display: grid;
@@ -257,7 +268,7 @@ font-size: large;
    
 
 }
-/*grids nosotros*/
+/*grids nosotros
 .contenedor__nosotros{
     display: grid;
     grid-template-columns:repeat(4,1fr) ; 
@@ -268,7 +279,7 @@ font-size: large;
     ". parrafo parrafo ."
     "pie pie pie pie";
     
-}
+}*/
 /* tamaño table nosotros*/
 @media screen and(max-width:768px){
     .contenedor__nosotros{display: grid;
