@@ -1,0 +1,28 @@
+.logo-instagram{
+    width: 26px;
+    height: 21px;
+    display:flex;
+    color: transparent;
+    justify-content: end;
+    &:hover{
+        color: black;
+    }
+}
+
+
+.logo-facebook{
+    width: 26px;
+    height: 21px;
+    display: flex;
+    justify-content: start;
+    color: transparent;
+    &:hover{
+        color: black;
+    }
+}
+
+.pie{
+    text-align: center;
+    background-color: rgba(248, 71, 17, 0.972);
+    grid-area: pie;
+}

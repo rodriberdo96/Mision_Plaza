@@ -1,0 +1,101 @@
+@import "header";
+@import "footer";
+@import "nosotros";
+@import "contacto";
+@import "menu";
+@import "reserva";
+@import "mediaqueries";
+
+
+.fondo__index{
+    background-image: url("../Multimedia/mision\ plaza\ 1.jpg");
+    background-color: #cccccc;
+    height: 800px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    grid-area: foto;
+    
+}
+
+
+
+.titulo{
+    text-align: center;
+    position:relative;
+    left: 140px;
+    top: 20px;}
+.titulo__logo{
+    width: 100px;
+    height: 99px;
+    margin-top: 0%;
+    text-align: center;
+    transition: all 0.2s;
+    &:hover{ width: 105px;
+    height: 104px;}
+}
+
+
+.listas{
+    list-style: none;
+    text-align: center;
+    display: inline;
+    a{
+        text-decoration: none;
+        color: black;
+        font-weight: bold;
+        padding:20px;
+        transition: all 0.2s;
+        &:hover 
+            { color: rgb(83, 82, 82);
+            font-size: larger;}
+        }
+
+}
+
+
+
+.ul{
+    list-style: none;
+}
+.aside__index{text-align: center;
+grid-area: aside;
+justify-self: center;
+align-self: center;}
+.nosotros__index{ text-decoration: none;
+    color: black;
+    font-weight: bold;
+font-size: 40px;}
+
+
+.parrafo{
+    font-size: larger;
+    text-align: center;
+}
+.menu__index{
+    border: orangered;
+    background-color: orangered;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    display: flex;
+    box-shadow: 0 3px 5px black;
+    border-radius: 20px;
+    padding: 15px;
+    font-size: larger;
+    margin-bottom: 10px;
+    transition: all 0.5s;
+    text-align: center;
+    justify-content: center;
+    &:hover{
+        background-color: tomato;
+        font-weight: lighter;
+        }    
+}
+
+
+
+
+
+
+

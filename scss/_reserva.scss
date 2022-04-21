@@ -1,0 +1,27 @@
+.fondo__reserva{
+    background-image: url("../Multimedia/menu\ 2.jpg");
+    background-color: #cccccc;
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.boton__reserva{
+    border: orangered;
+    background-color: orangered;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    display: inline-block;
+    box-shadow: 0 3px 5px black;
+    border-radius: 20px;
+    padding: 15px;
+    font-size: 25px;
+    margin-bottom: 10px;
+    text-align: center;
+    margin: 200px 550px;
+    transition: all 0.2s;
+    &:hover{
+        background-color: tomato;
+    }
+}

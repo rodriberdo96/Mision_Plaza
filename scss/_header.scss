@@ -1,0 +1,10 @@
+.header{
+    position: sticky;
+    top: 0px;
+    background-color: rgba(248, 71, 17, 0.972);
+    z-index: 2;
+    grid-area: header;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+}

@@ -1,0 +1,39 @@
+.div__entradas{
+    background-image: url("../Multimedia/Entradas.jpg");
+    background-color: #cccccc;
+    height: 300px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.menu__titulos{
+    text-align: center;
+    padding-top: 100px;
+    font-size: 50px;
+    font-weight: bolder;
+    color: black;
+}
+
+.div__platos{
+    background-image: url("../Multimedia/menu\ 1.jpg");
+    background-color: #cccccc;
+    height: 300px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.div__bebidas{background-image: url("../Multimedia/cerveza.jpg");
+    background-color: #cccccc;
+    height: 300px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;}
+.div__postres{background-image: url("../Multimedia/menu\ postre.jpg");
+    background-color: #cccccc;
+    height: 300px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;}
+.menu__texto2{
+    display: inline;
+}

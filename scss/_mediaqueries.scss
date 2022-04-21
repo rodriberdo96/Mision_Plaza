@@ -1,0 +1,66 @@
+@media screen and(max-width:768px){
+    .contenedor{display: grid;
+        grid-template-columns:repeat(3,1fr) ; 
+        grid-template-rows: 0.2fr 2fr 0.8fr 0.1fr ;
+        grid-template-areas: 
+        "header header header "
+        "foto foto foto "
+        ". aside aside "
+        "pie pie pie";}
+        .titulo{
+            position: relative;
+            left: 260px;
+        
+        }
+}
+
+/* tamaño celular index*/
+@media screen and (max-width:425px){
+    .contenedor{display: grid;
+        grid-template-columns:repeat(1,1fr) ; 
+        grid-template-rows: 0.2fr 2fr 0.8fr 0.1fr ;
+        grid-template-areas: 
+        "header  "
+        "foto "
+        "aside"
+        "pie";}
+        .titulo{
+            position: relative;
+            left: 160px;
+        }
+   
+
+}
+
+/* tamaño table nosotros*/
+@media screen and(max-width:768px){
+    .contenedor__nosotros{display: grid;
+        grid-template-columns:repeat(3,1fr) ; 
+        grid-template-rows: 0.2fr 0.5fr 0.8fr 0.1fr ;
+        grid-template-areas: 
+        "header header header "
+        "nosotros nosotros nosotros "
+        ". parrafo parrafo "
+        "pie pie pie";}
+        .titulo{
+            position: relative;
+            left: 260px;
+        
+        }
+}
+/* tamaño celular nosotros*/
+@media screen and (max-width:425px){
+    .contenedor__nosotros{display: grid;
+        grid-template-columns:repeat(1,1fr) ; 
+        grid-template-rows: 0.2fr 0.5fr 0.8fr 0.1fr ;
+        grid-template-areas: 
+        "header "
+        "nosotros "
+        "parrafo"
+        "pie";}
+        .titulo{
+            position: relative;
+            left: 160px;
+        }
+   
+    }
