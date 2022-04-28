@@ -1,3 +1,4 @@
+@import "variables";
 @import "header";
 @import "footer";
 @import "nosotros";
@@ -74,7 +75,7 @@ font-size: 40px;}
 }
 .menu__index{
     border: orangered;
-    background-color: orangered;
+    background-color: #ff4400;
     text-decoration: none;
     color: black;
     font-weight: bold;

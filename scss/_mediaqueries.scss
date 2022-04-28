@@ -1,5 +1,5 @@
 @media screen and(max-width:768px){
-    .contenedor{display: grid;
+    .container-fluid{display: grid;
         grid-template-columns:repeat(3,1fr) ; 
         grid-template-rows: 0.2fr 2fr 0.8fr 0.1fr ;
         grid-template-areas: 
@@ -16,7 +16,7 @@
 
 /* tamaño celular index*/
 @media screen and (max-width:425px){
-    .contenedor{display: grid;
+    .container-fluid{display: grid;
         grid-template-columns:repeat(1,1fr) ; 
         grid-template-rows: 0.2fr 2fr 0.8fr 0.1fr ;
         grid-template-areas: 

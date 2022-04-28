@@ -20,8 +20,9 @@
     margin-bottom: 10px;
     text-align: center;
     margin: 200px 550px;
-    transition: all 0.2s;
+    transition: all 0.4s;
     &:hover{
         background-color: tomato;
+        font-weight: lighter;
     }
 }

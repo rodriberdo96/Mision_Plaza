@@ -1,4 +1,57 @@
 @charset "UTF-8";
+.menu__indexmenu {
+  background-color: #ff4400; }
+
+.aside__index {
+  text-align: center;
+  justify-self: center;
+  align-self: center; }
+
+.nosotros__index {
+  text-decoration: none; }
+
+.logo-instagram, .logo-facebook {
+  height: 21px;
+  width: 26px;
+  display: flex;
+  color: transparent;
+  justify-content: end; }
+
+.logo-instagram:hover, .logo-facebook:hover {
+  color: black; }
+
+.logo-facebook {
+  justify-content: start; }
+
+.div__entradas, .fondo__nosotros, .div__platos, .div__bebidas, .div__postres, .fondo__reserva {
+  background-image: url("../Multimedia/Entradas.jpg");
+  background-color: #cccccc;
+  height: 300px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.fondo__nosotros {
+  background-image: url("../Multimedia/mision plaza 2.jpg");
+  margin-top: 0%; }
+
+.div__platos {
+  background-image: url("../Multimedia/menu 1.jpg"); }
+
+.div__bebidas {
+  background-image: url("../Multimedia/cerveza.jpg"); }
+
+.div__postres {
+  background-image: url("../Multimedia/menu postre.jpg"); }
+
+.fondo__reserva {
+  background-image: url("../Multimedia/menu 2.jpg");
+  height: 500px; }
+
+.titulo__logo {
+  height: 99px;
+  width: 100px; }
+
 .header {
   position: sticky;
   top: 0px;
@@ -9,13 +62,13 @@
   justify-content: center;
   justify-items: center; }
 
-.logo-instagram {
+.logo-instagram, .logo-facebook {
   width: 26px;
   height: 21px;
   display: flex;
   color: transparent;
   justify-content: end; }
-  .logo-instagram:hover {
+  .logo-instagram:hover, .logo-facebook:hover {
     color: black; }
 
 .logo-facebook {
@@ -60,7 +113,7 @@
 .contacto__titulo {
   font-size: larger; }
 
-.div__entradas {
+.div__entradas, .fondo__nosotros, .div__platos, .div__bebidas, .div__postres, .fondo__reserva {
   background-image: url("../Multimedia/Entradas.jpg");
   background-color: #cccccc;
   height: 300px;
@@ -124,12 +177,13 @@
   margin-bottom: 10px;
   text-align: center;
   margin: 200px 550px;
-  transition: all 0.2s; }
+  transition: all 0.4s; }
   .boton__reserva:hover {
-    background-color: tomato; }
+    background-color: tomato;
+    font-weight: lighter; }
 
 @media screen and (max-width: 768px) {
-  .contenedor {
+  .container-fluid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 0.2fr 2fr 0.8fr 0.1fr;
@@ -140,7 +194,7 @@
 
 /* tamaño celular index*/
 @media screen and (max-width: 425px) {
-  .contenedor {
+  .container-fluid {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     grid-template-rows: 0.2fr 2fr 0.8fr 0.1fr;
@@ -231,7 +285,7 @@
 
 .menu__index {
   border: orangered;
-  background-color: orangered;
+  background-color: #ff4400;
   text-decoration: none;
   color: black;
   font-weight: bold;
