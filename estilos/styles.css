@@ -68,7 +68,8 @@
   width: 50px;
   text-align: center;
   text-decoration: none;
-  border-radius: 70%; }
+  border-radius: 70%;
+  margin-top: 5px; }
 
 /* Add a hover effect if you want */
 .fa:hover {
