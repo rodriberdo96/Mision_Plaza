@@ -1,66 +1,29 @@
-@media screen and(max-width:768px){
-    .container-fluid{display: grid;
-        grid-template-columns:repeat(3,1fr) ; 
-        grid-template-rows: 0.2fr 2fr 0.8fr 0.1fr ;
-        grid-template-areas: 
-        "header header header "
-        "foto foto foto "
-        ". aside aside "
-        "pie pie pie";}
-        .titulo{
-            position: relative;
-            left: 260px;
-        
-        }
-}
 
-/* tamaño celular index*/
-@media screen and (max-width:425px){
-    .container-fluid{display: grid;
-        grid-template-columns:repeat(1,1fr) ; 
-        grid-template-rows: 0.2fr 2fr 0.8fr 0.1fr ;
-        grid-template-areas: 
-        "header  "
-        "foto "
-        "aside"
-        "pie";}
-        .titulo{
-            position: relative;
-            left: 160px;
+
+
+@media screen and (max-width:426px){
+        .menu__index{
+            width: 60%;
         }
-   
+        a.col-12.titulo{
+            justify-content: unset;
+        }
+        iframe{
+            width: 200px;
+            height: 250px;
+        }
 
 }
 
-/* tamaño table nosotros*/
-@media screen and(max-width:768px){
-    .contenedor__nosotros{display: grid;
-        grid-template-columns:repeat(3,1fr) ; 
-        grid-template-rows: 0.2fr 0.5fr 0.8fr 0.1fr ;
-        grid-template-areas: 
-        "header header header "
-        "nosotros nosotros nosotros "
-        ". parrafo parrafo "
-        "pie pie pie";}
-        .titulo{
-            position: relative;
-            left: 260px;
-        
-        }
-}
-/* tamaño celular nosotros*/
-@media screen and (max-width:425px){
-    .contenedor__nosotros{display: grid;
-        grid-template-columns:repeat(1,1fr) ; 
-        grid-template-rows: 0.2fr 0.5fr 0.8fr 0.1fr ;
-        grid-template-areas: 
-        "header "
-        "nosotros "
-        "parrafo"
-        "pie";}
-        .titulo{
-            position: relative;
-            left: 160px;
-        }
-   
+@media (min-width: 427px) and (max-width:1025px){
+    .menu__index{
+        width:30%;
     }
+    a.col-12.titulo{
+        justify-content: unset;
+    }
+    iframe{
+        height: 300px;
+        width: 300px;
+    }
+}

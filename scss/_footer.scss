@@ -1,25 +1,35 @@
-.logo-instagram{
-    width: 26px;
-    height: 21px;
-    display:flex;
-    color: transparent;
-    justify-content: end;
-    &:hover{
-        color: black;
-    }
-}
-
-
-.logo-facebook{
-    width: 26px;
-    height: 21px;
-    display: flex;
-    justify-content: start;
-    color: transparent;
-    &:hover{
-        color: black;
-    }
-}
+/* Style all font awesome icons */
+.fa {
+    padding: 15px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 70%;
+    
+  }
+  
+  /* Add a hover effect if you want */
+  .fa:hover {
+    opacity: 0.7;
+  }
+  
+  /* Set a specific color for each brand */
+  
+  /* Facebook */
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  /* Twitter */
+  .fa-instagram {
+    background: #f09433; 
+    background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); 
+    background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+    background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );
+  }
 
 .pie{
     text-align: center;

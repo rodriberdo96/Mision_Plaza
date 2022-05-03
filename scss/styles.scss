@@ -22,25 +22,30 @@
 
 
 .titulo{
-    text-align: center;
-    position:relative;
-    left: 140px;
-    top: 20px;}
+    display: flex;
+    align-self: baseline ;
+    justify-content: center;
+    
+    padding-top: 20px;
+}
 .titulo__logo{
     width: 100px;
     height: 99px;
     margin-top: 0%;
     text-align: center;
     transition: all 0.2s;
+    
     &:hover{ width: 105px;
     height: 104px;}
 }
 
 
-.listas{
+.navbar{
     list-style: none;
     text-align: center;
-    display: inline;
+    display: flex;
+    justify-content: center;
+    justify-self: center;
     a{
         text-decoration: none;
         color: black;
@@ -92,6 +97,13 @@ font-size: 40px;}
         background-color: tomato;
         font-weight: lighter;
         }    
+}
+.Carousel-item{
+    object-fit: contain;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    align-items: center;
+    width: fit-content;
 }
 
 
