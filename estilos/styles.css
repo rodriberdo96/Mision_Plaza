@@ -200,7 +200,9 @@
     justify-content: unset; }
   iframe {
     width: 200px;
-    height: 250px; } }
+    height: 250px; }
+  .col-3 {
+    width: 40%; } }
 
 @media (min-width: 427px) and (max-width: 1025px) {
   .menu__index {
@@ -209,7 +211,9 @@
     justify-content: unset; }
   iframe {
     height: 300px;
-    width: 300px; } }
+    width: 300px; }
+  .col-3 {
+    width: 17%; } }
 
 .fondo__index {
   background-image: url("../Multimedia/mision plaza 1.jpg");
@@ -289,10 +293,3 @@
   .menu__index:hover {
     background-color: tomato;
     font-weight: lighter; }
-
-.Carousel-item {
-  object-fit: contain;
-  border-radius: 20px;
-  margin-bottom: 20px;
-  align-items: center;
-  width: fit-content; }
