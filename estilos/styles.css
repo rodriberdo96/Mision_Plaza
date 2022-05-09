@@ -61,7 +61,6 @@
   justify-content: center;
   justify-items: center; }
 
-/* Style all font awesome icons */
 .fa {
   padding: 15px;
   font-size: 30px;
@@ -71,11 +70,9 @@
   border-radius: 70%;
   margin-top: 5px; }
 
-/* Add a hover effect if you want */
 .fa:hover {
   opacity: 0.7; }
 
-/* Set a specific color for each brand */
 /* Facebook */
 .fa-facebook {
   background: #3B5998;
@@ -202,7 +199,9 @@
     width: 200px;
     height: 250px; }
   .col-3 {
-    width: 40%; } }
+    width: 40%; }
+  .col-3.boton__reserva {
+    width: 76%; } }
 
 @media (min-width: 427px) and (max-width: 1025px) {
   .menu__index {
@@ -213,7 +212,9 @@
     height: 300px;
     width: 300px; }
   .col-3 {
-    width: 17%; } }
+    width: 17%; }
+  .col-3.boton__reserva {
+    width: 32%; } }
 
 .fondo__index {
   background-image: url("../Multimedia/mision plaza 1.jpg");
