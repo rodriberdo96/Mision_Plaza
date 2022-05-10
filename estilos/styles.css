@@ -23,7 +23,7 @@
   justify-content: start; }
 
 .div__entradas, .fondo__nosotros, .div__platos, .div__bebidas, .div__postres, .fondo__reserva {
-  background-image: url("../Multimedia/Entradas.jpg");
+  background-image: url("../Multimedia/entradas.jpg");
   background-color: #cccccc;
   height: 300px;
   background-position: center;
@@ -31,20 +31,20 @@
   background-size: cover; }
 
 .fondo__nosotros {
-  background-image: url("../Multimedia/mision plaza 2.jpg");
+  background-image: url("../Multimedia/misionplaza2.jpg");
   margin-top: 0%; }
 
 .div__platos {
-  background-image: url("../Multimedia/menu 1.jpg"); }
+  background-image: url("../Multimedia/principal.jpg"); }
 
 .div__bebidas {
   background-image: url("../Multimedia/cerveza.jpg"); }
 
 .div__postres {
-  background-image: url("../Multimedia/menu postre.jpg"); }
+  background-image: url("../Multimedia/postre.jpg"); }
 
 .fondo__reserva {
-  background-image: url("../Multimedia/menu 2.jpg");
+  background-image: url("../Multimedia/menu.jpg");
   height: 500px; }
 
 .titulo__logo {
