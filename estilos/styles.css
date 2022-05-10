@@ -93,15 +93,7 @@
   grid-area: pie;
   font-family: Aardvark; }
 
-.fondo__nosotros {
-  background-image: url("../multimedia/misionplaza2.jpg");
-  background-color: #cccccc;
-  height: 300px;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  margin-top: 0%;
-  grid-area: nosotros; }
+
 
 .section__parrafo {
   grid-area: parrafo; }
@@ -141,30 +133,6 @@
   color: black;
   font-family: Aardvark; }
 
-.div__platos {
-  background-image: url("../multimedia/principal.jpg");
-  background-color: #cccccc;
-  height: 700px;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover; }
-
-.div__bebidas {
-  background-image: url("../multimedia/cerveza.jpg");
-  background-color: #cccccc;
-  height: 700px;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover; }
-
-.div__postres {
-  background-image: url("../multimedia/postre.jpg");
-  background-color: #cccccc;
-  height: 700px;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover; }
-
 .menu__texto2 {
   display: flex;
   justify-content: center;
@@ -172,13 +140,7 @@
   padding-bottom: 20px;
   font-family: Aardvark; }
 
-.fondo__reserva {
-  background-image: url("../Multimedia/menu.jpg");
-  background-color: #cccccc;
-  height: 500px;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover; }
+
 
 .boton__reserva {
   font-family: Aardvark;
