@@ -74,7 +74,7 @@
 .fa:hover {
   opacity: 0.7; }
 
-/* Facebook */
+/* Facebook*/
 .fa-facebook {
   background: #3B5998;
   color: white; }
@@ -142,7 +142,7 @@
   font-family: Aardvark; }
 
 .div__platos {
-  background-image: url("../Multimedia/menu 1.jpg");
+  background-image: url("../multimedia/principal.jpg");
   background-color: #cccccc;
   height: 700px;
   background-position: center;
@@ -158,7 +158,7 @@
   background-size: cover; }
 
 .div__postres {
-  background-image: url("../Multimedia/menu postre.jpg");
+  background-image: url("../multimedia/postre.jpg");
   background-color: #cccccc;
   height: 700px;
   background-position: center;
@@ -173,7 +173,7 @@
   font-family: Aardvark; }
 
 .fondo__reserva {
-  background-image: url("../Multimedia/menu 2.jpg");
+  background-image: url("../Multimedia/menu.jpg");
   background-color: #cccccc;
   height: 500px;
   background-position: center;
@@ -233,7 +233,7 @@
   src: url(../AARDC___.TTF); }
 
 .fondo__index {
-  background-image: url("../Multimedia/mision plaza 1.jpg");
+  background-image: url("../Multimedia/puerta.jpg");
   background-color: #cccccc;
   height: 800px;
   background-position: center;
