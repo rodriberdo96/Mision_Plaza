@@ -6,6 +6,10 @@
 @import "menu";
 @import "reserva";
 @import "mediaqueries";
+@font-face {
+    font-family: Aardvark ;
+    src: url(../AARDC___.TTF);
+}
 
 
 .fondo__index{
@@ -64,14 +68,18 @@
 .ul{
     list-style: none;
 }
-.aside__index{text-align: center;
-grid-area: aside;
-justify-self: center;
-align-self: center;}
-.nosotros__index{ text-decoration: none;
+.aside__index{
+    text-align: center;
+    grid-area: aside;
+    justify-self: center;
+    align-self: center;}
+.nosotros__index{
+    text-decoration: none;
     color: black;
     font-weight: bold;
-font-size: 40px;}
+    font-size: 40px;
+    font-family: Aardvark;
+    }
 
 
 .parrafo{
@@ -93,6 +101,7 @@ font-size: 40px;}
     transition: all 0.5s;
     text-align: center;
     justify-content: center;
+    font-family: Aardvark;
     &:hover{
         background-color: tomato;
         font-weight: lighter;

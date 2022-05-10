@@ -12,6 +12,8 @@
     font-size: 50px;
     font-weight: bolder;
     color: black;
+    font-family: Aardvark;
+    
 }
 
 .div__platos{
@@ -35,5 +37,9 @@
     background-repeat: no-repeat;
     background-size: cover;}
 .menu__texto2{
-    display: inline;
+    display: flex;
+    justify-content: center;
+    align-content: space-between;
+    padding-bottom: 20px;
+    font-family: Aardvark;
 }
