@@ -126,7 +126,7 @@
   font-family: Aardvark; }
 
 .div__entradas, .fondo__nosotros, .div__platos, .div__bebidas, .div__postres, .fondo__reserva {
-  background-image: url("../multimedia/Entradas.jpg");
+  background-image: url("../multimedia/entradas.jpg");
   background-color: #cccccc;
   height: 700px;
   background-position: center;
