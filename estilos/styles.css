@@ -34,7 +34,18 @@
   background-image: url("../Multimedia/misionplaza2.jpg");
   margin-top: 0%; }
 
+.div__platos {
+  background-image: url("../Multimedia/principal.jpg"); }
 
+.div__bebidas {
+  background-image: url("../Multimedia/cerveza.jpg"); }
+
+.div__postres {
+  background-image: url("../Multimedia/postre.jpg"); }
+
+.fondo__reserva {
+  background-image: url("../Multimedia/menu.jpg");
+  height: 500px; }
 
 .titulo__logo {
   height: 99px;
