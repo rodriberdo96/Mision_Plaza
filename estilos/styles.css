@@ -115,7 +115,13 @@
   font-size: larger;
   font-family: Aardvark; }
 
-
+.div__entradas, .fondo__nosotros, .div__platos, .div__bebidas, .div__postres, .fondo__reserva {
+  background-image: url("../multimedia/entradas.jpg");
+  background-color: #cccccc;
+  height: 700px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
 
 .menu__titulos {
   text-align: center;
@@ -125,9 +131,29 @@
   color: black;
   font-family: Aardvark; }
 
+.div__platos {
+  background-image: url("../multimedia/principal.jpg");
+  background-color: #cccccc;
+  height: 700px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
 
+.div__bebidas {
+  background-image: url("../multimedia/cerveza.jpg");
+  background-color: #cccccc;
+  height: 700px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
 
-
+.div__postres {
+  background-image: url("../multimedia/postre.jpg");
+  background-color: #cccccc;
+  height: 700px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
 
 .menu__texto2 {
   display: flex;
@@ -135,8 +161,6 @@
   align-content: space-between;
   padding-bottom: 20px;
   font-family: Aardvark; }
-
-
 
 .boton__reserva {
   font-family: Aardvark;
