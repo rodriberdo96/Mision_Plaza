@@ -93,8 +93,6 @@
   grid-area: pie;
   font-family: Aardvark; }
 
-
-
 .section__parrafo {
   grid-area: parrafo; }
 
@@ -117,13 +115,7 @@
   font-size: larger;
   font-family: Aardvark; }
 
-.div__entradas, .fondo__nosotros, .div__platos, .div__bebidas, .div__postres, .fondo__reserva {
-  background-image: url("../multimedia/entradas.jpg");
-  background-color: #cccccc;
-  height: 700px;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover; }
+
 
 .menu__titulos {
   text-align: center;
@@ -132,6 +124,10 @@
   font-weight: bolder;
   color: black;
   font-family: Aardvark; }
+
+
+
+
 
 .menu__texto2 {
   display: flex;
@@ -243,7 +239,7 @@
   grid-area: aside;
   justify-self: center;
   align-self: center; }
-
+s
 .nosotros__index {
   text-decoration: none;
   color: black;
