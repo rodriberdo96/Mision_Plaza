@@ -96,7 +96,7 @@
 .fondo__nosotros {
   background-image: url("../multimedia/misionplaza2.jpg");
   background-color: #cccccc;
-  height: 700px;
+  height: 300px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -125,7 +125,13 @@
   font-size: larger;
   font-family: Aardvark; }
 
-
+.div__entradas, .fondo__nosotros, .div__platos, .div__bebidas, .div__postres, .fondo__reserva {
+  background-image: url("../multimedia/entradas.jpg");
+  background-color: #cccccc;
+  height: 700px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
 
 .menu__titulos {
   text-align: center;
