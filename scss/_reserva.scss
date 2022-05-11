@@ -1,4 +1,11 @@
-
+.fondo__reserva{
+    background-image: url("../Multimedia/menu.jpg");
+    background-color: #cccccc;
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 .boton__reserva{
     font-family: Aardvark;
     border: orangered;
