@@ -73,7 +73,7 @@
   font-family: Aardvark; }
 
 .div__entradas {
-  background-image: url(../Multimedia/entradas.jpg);
+  background-image: url("../Multimedia/entradas.jpg");
   background-color: #cccccc;
   height: 700px;
   background-position: center;
