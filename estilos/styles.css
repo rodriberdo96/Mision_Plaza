@@ -175,6 +175,10 @@
   .col-3.boton__reserva {
     width: 32%; } }
 
+@font-face {
+  font-family: Aardvark;
+  src: url(../AARDC___.TTF); }
+
 .fondo__index {
   background-image: url("../Multimedia/puerta.jpg");
   background-color: #cccccc;
