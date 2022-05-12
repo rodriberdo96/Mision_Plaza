@@ -1,3 +1,56 @@
+.menu__indexmenu {
+  background-color: #ff4400; }
+
+.aside__index {
+  text-align: center;
+  justify-self: center;
+  align-self: center; }
+
+.nosotros__index {
+  text-decoration: none; }
+
+.logo-instagram, .logo-facebook {
+  height: 21px;
+  width: 26px;
+  display: flex;
+  color: transparent;
+  justify-content: end; }
+
+.logo-instagram:hover, .logo-facebook:hover {
+  color: black; }
+
+.logo-facebook {
+  justify-content: start; }
+
+.div__entradas, .fondo__nosotros, .div__platos, .div__bebidas, .div__postres, .fondo__reserva {
+  background-image: url("../Multimedia/entradas.jpg");
+  background-color: #cccccc;
+  height: 700px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.fondo__nosotros {
+  background-image: url("../Multimedia/misionplaza2.jpg");
+  margin-top: 0%; }
+
+.div__platos {
+  background-image: url("../Multimedia/principal.jpg"); }
+
+.div__bebidas {
+  background-image: url("../Multimedia/cerveza.jpg"); }
+
+.div__postres {
+  background-image: url("../Multimedia/postre.jpg"); }
+
+.fondo__reserva {
+  background-image: url("../Multimedia/menu.jpg");
+  height: 500px; }
+
+.titulo__logo {
+  height: 99px;
+  width: 100px; }
+
 .header {
   position: sticky;
   top: 0px;
@@ -72,7 +125,7 @@
   font-size: larger;
   font-family: Aardvark; }
 
-.div__entradas {
+.div__entradas, .fondo__nosotros, .div__platos, .div__bebidas, .div__postres, .fondo__reserva {
   background-image: url("../Multimedia/entradas.jpg");
   background-color: #cccccc;
   height: 700px;
