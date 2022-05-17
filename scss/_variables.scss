@@ -47,11 +47,7 @@ $estilos:(
     background-size: cover;
     }
 
-.fondo__nosotros{
-    @extend.div__entradas;
-    background-image: url("../Multimedia/misionplaza2.jpg");
-    margin-top: 0%;
-}
+
 
 .div__platos{
     @extend.div__entradas;

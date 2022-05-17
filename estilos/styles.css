@@ -22,17 +22,13 @@
 .logo-facebook {
   justify-content: start; }
 
-.div__entradas, .fondo__nosotros, .div__platos, .div__bebidas, .div__postres, .fondo__reserva {
+.div__entradas, .div__platos, .div__bebidas, .div__postres, .fondo__reserva {
   background-image: url("../Multimedia/entradas.jpg");
   background-color: #cccccc;
   height: 700px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover; }
-
-.fondo__nosotros {
-  background-image: url("../Multimedia/misionplaza2.jpg");
-  margin-top: 0%; }
 
 .div__platos {
   background-image: url("../Multimedia/principal.jpg"); }
@@ -125,7 +121,7 @@
   font-size: larger;
   font-family: Aardvark; }
 
-.div__entradas, .fondo__nosotros, .div__platos, .div__bebidas, .div__postres, .fondo__reserva {
+.div__entradas, .div__platos, .div__bebidas, .div__postres, .fondo__reserva {
   background-image: url("../Multimedia/entradas.jpg");
   background-color: #cccccc;
   height: 700px;
